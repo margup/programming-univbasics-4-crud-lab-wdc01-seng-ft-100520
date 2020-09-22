@@ -1,14 +1,25 @@
 $arr = []
 def create_an_empty_array
+<<<<<<< HEAD
   arr = Array.new
+=======
+  Array.new
+>>>>>>> e863d0f225a0ad2bbcd8d3b8caf8f08a86f79aad
   
 end
 
 def create_an_array
+<<<<<<< HEAD
   $arr = Array.new(4)
+=======
+  Array.new(4, true)
+>>>>>>> e863d0f225a0ad2bbcd8d3b8caf8f08a86f79aad
 end
 
 def add_element_to_end_of_array(array, element)
+  arr = Array.new
+  arr << "1"
+  arr.push("2")
   
   $arr << element
   
